@@ -40,7 +40,7 @@ function submitChoice(choice) {
       }
       else {
         playerScore++;
-        document.getElementById("gameResult").innerHTML = "You win, Rock beast Scissors!";
+        document.getElementById("gameResult").innerHTML = "You win, Rock beats Scissors!";
       }
       break;
     case 1:
@@ -60,7 +60,7 @@ function submitChoice(choice) {
     case 2:
       if (cpu == 0) {
         cpuScore++;
-        document.getElementById("gameResult").innerHTML = "Computer Wins, Rock beast Scissors";
+        document.getElementById("gameResult").innerHTML = "Computer Wins, Rock beats Scissors";
       }
       else if (cpu == 1) {
         playerScore++;
