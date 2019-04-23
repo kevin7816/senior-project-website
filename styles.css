@@ -1,0 +1,166 @@
+body {
+    background-image: url("img/background7.jpg");
+    background-size: 1950px 1000px;
+    margin: 0px;
+    font-family: 'Bree Serif', serif;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.choice {
+    cursor: pointer;
+}
+
+
+.button {
+    border: 1px solid #10a1d0;
+    border-radius: 9px;
+    text-align: center;
+    background-color: #aed4f5;
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 6px 15px;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 20px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+    cursor: pointer;
+}
+
+.btn:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+.spaced-row {
+    display:flex;
+    justify-content: space-evenly;
+    padding: 56px;
+}
+
+
+.red {
+  background-color: #e74c3c;
+  box-shadow: 0px 5px 0px 0px #CE3323;
+}
+
+.red:hover {
+  background-color: #FF6656;
+}
+
+.mathContainer {
+  font-size: 200%;
+  text-align: center;
+  padding: 20px 20px 20px 60px;
+}
+
+#answer-input {
+    background-color: transparent;
+    border: none;
+    border-color: transparent;
+    border-bottom: 3px solid;
+    width: 15%;
+    height: 37px;
+    font-size: 150%;
+    font-family: 'Bree Serif', serif;
+
+}
+
+#inputLine {
+  text-align:center;
+  padding-left: 225px;
+}
+.width {
+    width: 33%;
+    text-align: center;
+    font-size: 150%;
+}
+
+#gameResult {
+  font-size: 45px;
+  width: 445px;
+  margin: 0px;
+}
+#num1 {
+    padding-left:50px;
+}
+
+.numContainer {
+    font-size:110px;
+    text-align: center;
+}
+
+hr {
+    width: 15%;
+    border-color:black;
+}
+
+.avgContainer {
+  text-align: center;
+  font-size: 40px;
+}
+
+#answer-input1, #answer-input2, #answer-input3, #answer-input4, #answer-input5 {
+  height: 20px;
+  background-color: transparent;
+  border: none;
+  border-color: transparent;
+  border-bottom: 3px solid;
+  padding: 2px;
+  font-family: 'Bree Serif', serif;
+  font-size: 70%;
+  width: 10%;
+
+}
+
+.sumofcontainer {
+  text-align: center;
+  font-size: 40px;
+  flex-direction: column;
+  align-items: center;
+  width:50%;
+  margin:auto;
+}
+
+#sumNum {
+  height: 20px;
+  background-color: transparent;
+  border: none;
+  border-color: transparent;
+  border-bottom: 3px solid;
+  padding: 2px;
+  font-family: 'Bree Serif', serif;
+  font-size: 32px;
+  width: 16%;
+  height: 24px;
+}
+.clickable {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+}
+
+.thumbnail {
+  border:2px solid white;
+  margin-top:16px;
+}
+
+.resultContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

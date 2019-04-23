@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Kevin's Senior Project Website</title>
+    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+</head>
+
+<body onload="loopImages()">
+    <h1>Rock Paper Scissor!</h1>
+    <div class="container" id="cpuChoice">
+
+        <img id="imageChoice">
+
+    </div>
+    <div class="container">
+        <div class="width">
+            <h3>You</h3>
+            <h3 id="playerScore">0</h3>
+        </div>
+        <div class="resultContainer">
+            <h1 class="width" id="gameResult">Pick</h1>
+            <div onclick="loopImages()" id="playAgain" class="btn red">Play Again!</div>
+        </div>
+
+        <div class="width">
+            <h3>Computer</h3>
+            <h3 id="cpuScore">0</h3>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="choice" onclick="submitChoice(0)">
+            <img src="img/rock.jpg"></div>
+        <div class="choice" onclick="submitChoice(1)">
+            <img src="img/paper.jpg"></div>
+        <div class="choice" onclick="submitChoice(2)">
+            <img src="img/scissor.jpg"></div>
+    </div>
+
+</body>
+
+</html>
